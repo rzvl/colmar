@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colmar Academy Home Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header (logo and navigation bar) -->
+
+  <header>
+    <nav>
+      <div class="logo"><a href="#"><img src="images/ic-logo.svg" alt="" height="32px"><span class="logo-txt">ColmarAcademy</span></a></div>
+      <ul>
+        <li><a href="#"><img src="images/ic-on-campus.svg" alt="" height="32px"><span>On campus</span></a></li>
+        <li><a href="#"><img src="images/ic-online.svg" alt="" height="32px"><span>Online</span></a></li>
+        <li class="companies"><a href="#"><span>For companies</span></a></li>
+        <li><a href="#"><img src="images/ic-login.svg" alt="" height="32px"><span>Sign in</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+
+  <main>
+
+    <!-- Part 1: above the fold banner with call-to-action -->
+    <section class="banner two-col">
+
+      <div class="left-col">
+        <img src="images/banner.jpg" alt="three people studying together">
+      </div>
+
+      <div class="right-col">
+        <h1>Learn something new everyday</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+        <a href="#" class="button">Start here</a>
+      </div>
+
+    </section>
+
+    <!-- Part 2: provides some key information about the college -->
+    <section class="information two-col">
+
+      <div class="left-col desktop">
+        <img src="images/information-main.jpg" alt="a black man studying a book">
+        <h2>It doesn't hurt to keep practicing</h2>
+        <figure>
+          <blockquote cite="httpshiring.com">
+            <p>"aliquam ultrices sagittis orci a scelerisque purus semper eget duis 
+              at tellus at urna condimentum mattis pellentesque id nibh tortor id 
+              aliquet lectus proin nibh."</p>
+          </blockquote>
+          <figcaption>Emanuel, Sr Strategist at Hiring.com</figcaption>
+        </figure>
+      </div>
+
+      <div class="right-col">
+        <div class="info-card">
+          <img srcset="images/information-orientation-mobile.jpg 576w,
+                       images/information-orientation.jpg 272w"
+               sizes="(max-width = 600px) 576px,
+                      272px"
+               src="images/information-orientation.jpg"
+               alt="people with shadows">
+          <div class="desc">
+            <h3>Orientation date</h3>
+            <p><time datetime="2021-10-11">Tue 10/11</time> & <time datetime="2016-10-12">Wed 10/12</time>: 8am-3pm</p>
+            <p><a href="#">Read more</a></p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <img srcset="images/information-campus-mobile.jpg 576w,
+                       images/information-campus.jpg 272w"
+               sizes="(max-width = 600px) 576px,
+                      272px"
+               src="images/information-campus.jpg" 
+               alt="campus area">
+          <div class="desc">
+            <h3>Our campus</h3>
+            <p>Find which campus is close by you</p>
+            <p><a href="#">Read more</a></p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <img srcset="images/information-guest-lecture-mobile.jpg 576w,
+                       images/information-guest-lecture.jpg 272w"
+               sizes="(max-width = 600px) 576px,
+                      272px"
+               src="images/information-guest-lecture.jpg"
+               alt="Oliver Sack">
+          <div class="desc">
+            <h3>Our guest lecture</h3>
+            <p>Join a keynote with Oliver sack about music in medical treatment</p>
+            <p><a href="#">Read more</a></p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Part 3: list of the courses presented by the college -->
+    <section class="courses">
+      <h2 class="center">Start learning</h2>
+
+      <div class="container">
+        <article>
+          <img src="images/course-software.jpg" alt="a computer software">
+          <div class="desc">
+            <h3>Software engineering</h3>
+            <p>COURSES</p>
+            <p>Web Development, Mobile Development, iOT, APIs</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="images/course-computer-art.jpg" alt="a mobile used for creating art">
+          <div class="desc">
+            <h3>Computer art</h3>
+            <p>COURSES</p>
+            <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="images/course-design.jpg" alt="a person holding a camera">
+          <div class="desc">
+            <h3>Design</h3>
+            <p>COURSES</p>
+            <p>User Experience Design, User Research, Visual Design</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="images/course-data.jpg" alt="computer showing data">
+          <div class="desc">
+            <h3>Data</h3>
+            <p>COURSES</p>
+            <p>Data Science, Big Data, SQL, Data Visualization</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="images/course-business.jpg" alt="beautiful chess pieces">
+          <div class="desc">
+            <h3>Business</h3>
+            <p>COURSES</p>
+            <p>Product Development, Business Development, Startup</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="images/course-marketing.jpg" alt="someone using a smart watch">
+          <div class="desc">
+            <h3>Marketing</h3>
+            <p>COURSES</p>
+            <p>Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <!-- Part 4: Thesis Exhibit -->
+    <h2 class="center">Thesis exhibit</h2>
+    
+    <section class="exhibit two-col">
+
+      <div class="left-col">
+        <video src="videos/thesis.mp4" controls>
+          <p>Your browser doesn't support HTML5 video. Here is a 
+            <a href="videos/thesis.mp4">link to the video</a> instead.</p>
+        </video>
+        <h3>Reimagine urban</h3>
+        <p>sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam 
+          id diam maecenas ultricies mi eget mauris pharetra et ultrices neque 
+          ornare aenean euismod elementum nisi quis eleifend</p>
+      </div>
+
+      <div class="right-col">
+
+        <div class="info-card">
+          <img src="images/thesis-fisma.jpg" alt="someone planning">
+          <div class="desc">
+            <h3>Fisma: Design and Prototype</h3>
+            <p>Designer showcase of new prototype product</p>
+          </div>
+        </div>
+
+        <div class="info-card">
+          <img src="images/thesis-now-and-then.jpg" alt="New York city">
+          <div class="desc">
+            <h3>Now and then</h3>
+            <p>Research study about New York</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+
+  <footer>
+    <p>© 2021 Colmar Academy. All rights reserved</p>
+
+    <ul>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+    </ul>
+
+  </footer>
+
+</body>
+</html>
