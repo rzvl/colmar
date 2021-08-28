@@ -1,7 +1,5 @@
 # Colmar University's Home Page
 
-> This project was done as part of [Codecademy's Front-End Engineer course](https://www.codecademy.com/learn/paths/front-end-engineer-career-path).
-
 > [LIVE DEMO](https://rzvl.github.io/colmar/)
 
 
